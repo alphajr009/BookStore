@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Sansation-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/sansation.Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Sansation-Regular";
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/sansation.Regular.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2{
+  font-family: 'Sansation-Bold', sans-serif;
+  text-align: center;
+}
+
+

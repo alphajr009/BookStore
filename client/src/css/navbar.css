@@ -1,0 +1,31 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 0 70px;
+    font-family: 'Sansation-Bold', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  .Logo img {
+    max-width: 120px; 
+  }
+  
+  .NavbarText {
+    flex-grow: 1; 
+    text-align: left; 
+    margin-left: 20px;
+    font-size: 24px;
+  }
+  
+  .NavLinks a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 20px; 
+  }
+  
+  .NavLinks a:first-child {
+    margin-left: 0; 
+  }
+  

@@ -1,0 +1,46 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0 auto;
+    gap: 5%;
+    padding: 2% 6%;
+  }
+  
+  .left-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-buttons button {
+    margin-bottom: 10px;
+    padding: 14px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Sansation-Regular', sans-serif;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .right-tabs {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px; 
+  }
+  
+  .tab-content {
+    display: block;
+    width: 100%; 
+  }
+  
+
+  .left-buttons button.active {
+    background-color: #abd1ee;
+    color: #000000;
+    font-family: 'Sansation-Bold', sans-serif;
+  }
+  

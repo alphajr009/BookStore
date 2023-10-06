@@ -1,0 +1,99 @@
+.addnew-container{
+    background-color: #f6f9fe;
+    padding: 16px 24px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    font-family: 'Sansation-Bold', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color:  #f1f6ff;
+    color: black;
+    font-family: 'Sansation-Regular', sans-serif;
+    padding: 14px 20px;
+    margin: 16px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:  #6baadb;
+    font-family: 'Sansation-Bold', sans-serif;
+  }
+
+
+  label[for="title"], label[for="author"], label[for="ISBN"] {
+    font-weight: bold;
+    font-family: 'Sansation-Bold', sans-serif;
+  }
+
+  input[type="text"] {
+    margin-bottom: 22px; 
+  }
+
+  .btn-addnew{
+    width: 30%;
+    background-color:  #f1f6ff;
+    color: black;
+    font-family: 'Sansation-Bold', sans-serif;
+    padding: 14px 20px;
+    margin: 16px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-top: 5%;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-addnew:hover {
+    background-color:  #9dcaec;
+    font-family: 'Sansation-Bold', sans-serif;
+  }
+
+  .notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: fit-content;
+    padding: 4px 10px;
+    height: 10%;
+    font-family: 'Sansation-Bold', sans-serif;
+  }
+  
+  .notification-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: -8px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+
+  .notification-content {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+  }
+  

@@ -1,0 +1,39 @@
+.all-books-table{
+    background-color: #f6f9fe;
+    padding: 16px 24px;
+    width: 70%;
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .book-table th, .book-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .book-table th {
+    background-color: #fafafa;
+    font-weight: bold;
+    font-family: 'Sansation-Bold', sans-serif;
+  }
+  
+ 
+  .btn-remove {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .btn-remove:hover {
+    background-color: #d32f2f;
+  }
+  
