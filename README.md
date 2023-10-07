@@ -20,7 +20,7 @@ To run this project locally, follow the steps below:
 1. Clone this repository to your local machine.
 
 ```bash
-git clone 
+git clone https://github.com/alphajr009/BookStore.git
 cd BookStore
 ```
 
